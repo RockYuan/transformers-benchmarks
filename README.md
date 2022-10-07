@@ -36,3 +36,10 @@ sudo docker run --gpus all -it --rm -p 8888:8888 -v ~:/workspace \
 ```
 
 After the docker is running, execute  `jupyter notebook` in the docker's shell to open this notebook.
+
+## Tips
+1. notebook需要下载的bin和idx文件,可以在仓库中data目录中手动下载,放在容器目录/workspace中
+1. **实战完整视频可以在B站或视频号关注RockRockDay全程观看**
+
+## 特别鸣谢 Special thanks to
+**感谢沐神的分享**
